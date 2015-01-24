@@ -2,14 +2,18 @@
 
 A PhoneGap plugin for the [Dropbox Sync API](https://www.DropboxSync.com/developers/sync).
 
-Read my blog post [here](http://rossmartindev.blogspot.com/2013/08/phonegap-plugin-for-dropbox-sync-api.html)
+Read the original blog post [here](http://rossmartindev.blogspot.com/2013/08/phonegap-plugin-for-dropbox-sync-api.html)
+
+Fork
+-----------
+This fork just renames the Android directory to android. It wasn't building on Linux cordova (screw case insensitive filesystems)
 
 Installation
 -----------
 This plugin is compatible with [PhoneGap 3.0+ CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features) and [Cordova Plugman](https://github.com/apache/cordova-plugman), here's how to add it using the CLI:
 
 ```
-cordova plugin add https://github.com/rossmartin/phonegap-dropbox-sync-android.git
+cordova plugin add https://github.com/framp/phonegap-dropbox-sync-android.git
 ```
 
 Use the [Dropbox Apps Console](https://www.dropbox.com/login?cont=https%3A//www.dropbox.com/developers/apps) to create your own Dropbox application.  Add your Dropbox app key to AndroidManifest.xml.  [Add this app key and secret to the DropboxSync.java class that is acquired when installing the plugin](https://github.com/rossmartin/phonegap-dropbox-sync-android/blob/master/src/Android/DropboxSync.java#l45).
