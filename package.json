@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Dropbox sync cordova plugin",
   "cordova": {
-    "id": "package.json",
+    "id": "com.rossmartin.DropboxSync",
     "platforms": [
       "android"
     ]
