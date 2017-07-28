@@ -1,0 +1,32 @@
+{
+  "name": "Dropbox Sync",
+  "version": "1.0.0",
+  "description": "Dropbox sync cordova plugin",
+  "cordova": {
+    "id": "package.json",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.4.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.3.0"
+    }
+  ],
+  "author": "",
+  "license": "Apache 2.0"
+}
