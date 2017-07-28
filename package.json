@@ -1,5 +1,5 @@
 {
-  "name": "Dropbox Sync",
+  "name": "DropboxSync",
   "version": "1.0.2",
   "description": "Dropbox sync cordova plugin",
   "cordova": {
