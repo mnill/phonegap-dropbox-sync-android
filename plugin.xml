@@ -47,7 +47,6 @@
         <source-file src="src/android/DropboxSync.java" target-dir="src/com/rossmartin/DropboxSync" />
         <!-- add Dropbox Sync API libs -->
         <source-file src="src/android/dropbox-sync-sdk-android.jar" target-dir="libs" />
-        <source-file src="src/android/android-support-v4.jar" target-dir="libs" />
         <source-file src="src/android/armeabi/libDropboxSync.so" target-dir="libs/armeabi/" />
         <source-file src="src/android/armeabi/libDropboxSync.so" target-dir="libs/mips/" />
         <source-file src="src/android/armeabi/libDropboxSync.so" target-dir="libs/x86/" />
